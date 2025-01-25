@@ -23,7 +23,6 @@ int main(int argc, char *argv[]) {
   uint8_t * image_data = NULL;
   uint8_t * new_image_data = NULL;
   int image_width, image_height, image_pixel_size;
-  float rateo_height, ratio_width;
   SDL_PixelFormatEnum format_sdl;
   stbir_pixel_layout format_stbir;
 
